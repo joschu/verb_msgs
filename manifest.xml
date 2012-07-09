@@ -9,6 +9,7 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/verb_msgs</url>
   <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>  
 </package>
 
 

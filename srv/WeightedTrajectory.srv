@@ -1,0 +1,11 @@
+#All the points in the trajectory
+geometry_msgs/PoseArray trajectory
+
+#One weight for each point in the trajectory
+float64[] weights
+
+---
+
+#The new trajectory. Empty if no suitable one could be found
+geometry_msgs/PoseArray trajectory
+
