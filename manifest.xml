@@ -1,0 +1,16 @@
+<package>
+  <description brief="verb_msgs">
+
+     verb_msgs
+
+  </description>
+  <author>John Schulman</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/verb_msgs</url>
+  <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>  
+  <depend package="trajectory_msgs"/>  
+</package>
+
+

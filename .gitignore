@@ -1,0 +1,17 @@
+*~
+
+*.wpr
+*.wpu
+*.pyc
+*.log
+
+*.so
+*.o
+
+pixel_classifiers
+data
+build
+
+msg_gen
+srv_gen
+_*.py
