@@ -1,0 +1,19 @@
+#All the points in the trajectory
+geometry_msgs/PoseArray trajectory
+
+#One weight for each point in the trajectory
+float64[] weights
+
+#which arm to use, left_arm or right_arm
+string whicharm
+
+#the trajectory duration, in seconds
+float64 duration
+
+#the list of objects to interact with
+sensor_msgs/PointCloud2[] object_clouds
+---
+
+#The new trajectory, if found
+trajectory_msgs/JointTrajectory joint_trajectory
+
