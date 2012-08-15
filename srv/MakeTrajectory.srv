@@ -1,0 +1,4 @@
+string verb
+sensor_msgs/PointCloud2[] object_clouds
+---
+Trajectory traj
